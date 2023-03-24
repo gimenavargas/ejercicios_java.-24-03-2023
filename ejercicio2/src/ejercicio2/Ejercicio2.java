@@ -14,13 +14,13 @@ public class Ejercicio2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // 
+        // denominamos las dos variables "n" y "y"
         int n;
         int y;
         Scanner leer = new Scanner(System.in);
-        System.out.print("Escribe el primer numero ");
+        System.out.print("Escribe el primer numero: ");
         n=leer.nextInt (); //n recoge el primer valor escrito por teclado
-        System.out.print("Escribe el segundo numero ");
+        System.out.print("Escribe el segundo numero: ");
         y=leer.nextInt (); //y recoge el segundo valor escrito por teclado
         
         if (n != y) //condicion si n es diferente que y
